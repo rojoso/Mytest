@@ -1,0 +1,262 @@
+/*公用*/
+.center{
+	width: 1200px;
+	margin: auto;
+}
+
+.fl{
+	float: left;
+
+}
+
+.fr{
+	float: right;
+}
+
+span{
+	font-weight: bold;
+}
+/*header-bar*/
+.header-bar{
+	background-color: #f7f7f7;
+	height: 29px;
+	border-bottom: #d2d2d2 solid 1px;
+}
+
+.header-bar-left {
+    padding-top: 10px;
+}
+
+.collection{	
+	border-right: #d2d2d2 solid 1px;
+	border-left: #d2d2d2 solid 1px;
+	margin-right: 16px;
+	padding: 10px 10px 7px;
+}
+
+.switch-province{
+	padding: 0px 14px;
+}
+
+.mobile-version{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 35px;
+	background: url(../images/logo/mobile1.png) 10px 0px no-repeat;
+	border-left: #d2d2d2 solid 1px;
+	border-right: #d2d2d2 solid 1px;
+}
+
+.header-bar-right{
+	line-height: 29px;
+}
+
+.header-trang{
+	padding: 3px 8px;
+	background: url(../images/logo/trang.png) right center no-repeat;
+	border-left: #000 solid 1px;
+}
+
+.header-point{
+	padding: 3px 32px 3px 8px;
+	background: url(../images/logo/point.png) right center no-repeat;
+	border-left: #000 solid 1px;
+
+}
+
+/*search-bar*/
+
+.search-bar{
+	height: 100px;
+}
+
+.slogon{
+	vertical-align: middle;
+	text-align: center;
+	padding: 35px 5px 35px 75px;
+	width: 150px;
+	background: url(../images/logo/logo.png) left 22px no-repeat;
+}
+
+.logo{
+	font-family: "黑体";
+	font-size: 14px;
+	line-height: 14px;
+	color: #990000;
+}
+
+.search{
+	margin-left: 163px;
+	width: 460px;
+	text-align: left;
+	padding-top: 36px;
+}
+
+.search-area{
+	height: 30px;
+	background-color: #9a0000;
+	padding: 3px 3px;
+
+}
+
+.search-input{
+	width: 386px;
+	font-size: 14px;
+	line-height: 30px;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+
+.search-button{
+	padding-left: 14px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    background: #9a0000;
+}
+
+.search-list{
+	padding-top: 6px;
+
+}
+
+.search-list a{
+	padding-right: 12px;
+}
+
+.savetime{
+	height: 30px;
+	margin-top: 36px;
+    padding: 3px;
+    line-height: 30px;
+    background-color: #9a0000;
+}
+
+.savebutton{
+	padding: 6px;
+	color: #fff;
+	background-color: #9a0000;
+}
+
+.savesearch{
+	width: 83px;
+	line-height: 30px;
+	border-radius: 1px;
+	padding-left: 5px;
+}
+
+.menu-bar{
+	height: 40px;
+	background-color: #990000;
+}
+
+.menu-list a{
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.shopping-car a{
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.catag{
+	position: relative;
+	box-sizing: border-box;
+	width: 200px;
+	padding: 0 102px 0px 42px;
+	background: url(../images/logo/home.png) 12px 10px no-repeat , url(../images/logo/trangwh.png) 168px 15px no-repeat;
+}
+
+.catag h3{
+	color: #fff;
+}
+
+.menu-list{
+    width: 790px;
+}
+
+.menu-list a{
+	padding: 14px 14px;
+	border-left: #cb0000 solid 2px;
+	border-right: #700000 solid 2px;
+	color: #fff;
+}
+
+.all-catag{
+	font-size: 12px;
+	padding: 14px 0 0px 0;
+	color: #fff;
+}
+
+.shopping-car{
+	width: 210px;
+	height: 42px;
+	position: relative;
+	top: -3px;
+	background: url(../images/logo/shoppingback.png) left center no-repeat;	
+	text-align: center;
+}
+
+.shopping-car .shc-pic{
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 4px 10px 34px;
+	background: url(../images/logo/shoppingcar.png) left center no-repeat;
+}
+
+.shc-num{
+	padding: 1px 3px 9px 3px ;
+	position: relative;
+	top: -4px;
+	background: url(../images/logo/shc-num.png) left center no-repeat;
+}
+
+.shc-num a{
+	color: #b30a0a;
+}
+
+/*分类细节*/
+
+.catag-list{
+	width: 200px;
+	position: absolute;
+	top: 39px;
+	left: 0;
+}
+
+.catag-list dl{
+	height: 54px;
+	border-left:#d8d8d8 solid 1px;
+	border-right:#d8d8d8 solid 1px;
+}
+
+.catag-list dl:nth-child(2n+1){
+	background-color: #eeeeee;
+	border-top:#d8d8d8 solid 1px;
+	border-bottom:#d8d8d8 solid 1px;
+}
+
+.catag-list dt{
+    line-height: 14px;
+    padding-left: 14px;
+    padding-top: 8px;
+}
+
+.catag-list dt a{
+    color: #000;
+    font-weight: bold;
+}
+
+.catag-list dd{
+    line-height: 14px;
+    padding-left: 14px;
+    padding-top: 4px;
+}
+
+.catag-list dd a{
+    color: #b7b6b7;
+}
+
+
