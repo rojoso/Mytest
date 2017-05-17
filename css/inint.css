@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/*document*/
+
+body,p,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,table,td,img,div,dl,dt,dd,input,span,a{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-size: 12px;
+}
+
+img{
+	border: none;
+}
+
+li{
+	list-style: none;
+}
+
+input,textarea,select,button{
+	outline: none;
+	border: none;
+}
+
+a{
+	text-decoration: none;
+	font-family: "宋体",simsun;
+}
+
+textarea{
+	resize: none;
+}
+
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*清楚浮动*/
+.clearfix{
+	zoom:1;
+}
+
